@@ -30,3 +30,26 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 }
+@media (max-width: 700px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+  }
+  #ocean {
+    width: 90%;
+  }
+  a {
+    color: aliceblue;
+  }
+  #griddy {
+    grid-template-columns: 1fr 1fr;
+  }
+}
